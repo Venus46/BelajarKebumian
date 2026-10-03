@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi Geologi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            min-height: 100vh;
+            color: #fff;
+        }
+        
+        .header {
+            background-color: #111;
+            padding: 20px 40px;
+            border-bottom: 2px solid #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            color: #fff;
+            margin: 0;
+        }
+        
+        .header-nav {
+            display: flex;
+            gap: 30px;
+        }
+        
+        .header-nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+        
+        .header-nav a:hover {
+            color: #888;
+        }
+        
+        .content-container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 60px 40px;
+        }
+        
+        .content-container h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: #ccc;
+            margin-bottom: 40px;
+        }
+        
+
+        .text-link-section {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .text-link-section a {
+            color: #fff;
+            font-size: 22px;
+            text-decoration: underline;
+            text-underline-offset: 6px; 
+            width: fit-content; 
+            transition: color 0.3s;
+        }
+        
+        .text-link-section a:hover {
+            color: #6a9fff; 
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-top: 60px;
+            color: #6a9fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Belajar Kebumian</h1>
+        <nav class="header-nav">
+            <a href="../../index.html">Home</a>
+            <a href="../../tools.html">Tools</a>
+        </nav>
+    </div>
+    
+    <div class="content-container">
+        <h2>Geologi</h2>
+        <p class="subtitle">Materi pembelajaran subbidang Geologi:</p>
+        
+        <div class="text-link-section">
+            <a href="Geologi/Kristalografi.html">Kristalografi</a>
+            <a href="Geologi/Mineralogi.html">Mineralogi</a>
+            <a href="Geologi/Petrologi.html">Petrologi</a>
+            <a href="Geologi/Geomorfologi.html">Geomorfologi</a>
+        </div>
+
+        <a href="../materi.html" class="back-link">← Kembali ke pilihan subbidang</a>
+    </div>
+</body>
+</html>
